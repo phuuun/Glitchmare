@@ -50,7 +50,6 @@ public class DeathScreen : MonoBehaviour
 
     public void Show()
     {
-        Debug.Log("SHOWING DEATH SCREEN");
         isActive = true;
         gameObject.SetActive(true);
 

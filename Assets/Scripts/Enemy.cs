@@ -63,8 +63,6 @@ public class Enemy : MonoBehaviour
 
 void KillPlayer(GameObject playerObject)
 {
-    Debug.Log("PLAYER HIT");
-
     PlayerHealth health = playerObject.GetComponent<PlayerHealth>();
 
     if (health != null)

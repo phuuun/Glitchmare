@@ -81,11 +81,7 @@ public class BossTrigger : MonoBehaviour
 
         fire.SetActive(false);
 
-        Destroy(barrier);
-
         Destroy(bossAnimator.gameObject);
-
-        player.enabled = true;
     }
 
     void OnTriggerEnter2D(Collider2D other)
